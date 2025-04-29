@@ -619,7 +619,7 @@ color: #fff;
 cursor: pointer;
 }
 
-.user-checkbox:checked + .span-checkbox:checked {background-color: #404bbf;
+.user-checkbox:checked + .terms .span-checkbox {background-color: #404bbf;
 border: none;
 fill: #f4f4fd;}
 
