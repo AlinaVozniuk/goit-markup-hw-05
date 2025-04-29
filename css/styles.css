@@ -370,12 +370,6 @@ margin-bottom: 16px;}
 
 .footer-item {display: flex;
 gap: 16px;}
-/* 
-.footer-li {margin-left: 120px;
-width: 208px;
-height: 80px;
-display: flex;
-gap: 16px;} */
 
 ul {
     list-style-type: none;
