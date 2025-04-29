@@ -519,12 +519,19 @@ color: #8e8f99;
 display: block;
 margin-bottom: 4px;}
 
-.information-form {margin-bottom: 8px;}
+.information-form {margin-bottom: 16px;}
 
 .input-information {border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 4px;
 width: 360px;
-height: 40px;}
+height: 40px;
+background-color: transparent;
+padding-left: 38px;
+outline: transparent;
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input-information:focus {border-color: #4D5AE5;}
 
 input::placeholder {font-family: "Roboto", sans-serif;
 font-weight: 400;
@@ -536,7 +543,8 @@ color: rgba(46, 47, 66, 0.4);}
 .icons-information {position: absolute;
 left: 16px;
 top: 50%;
-transform: translateY(-50%);}
+transform: translateY(-50%);
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
 .information-icons {position: relative;
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
