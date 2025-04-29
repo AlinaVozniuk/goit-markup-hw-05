@@ -566,7 +566,7 @@ width: 169px;
 height: 56px;
 margin-bottom: 24px;
 margin-left: 120px;
-min-width: 165px;}
+}
 
 .send {font-family: "Roboto", sans-serif;
 font-weight: 500;
@@ -574,7 +574,8 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 text-align: center;
-color: #fff;}
+color: #fff;
+min-width: 165px;}
 
 .input-wrapper:has(input:hover) .icons-information,
 .input-wrapper:has(input:focus) .icons-information {fill: #4D5AE5;}
